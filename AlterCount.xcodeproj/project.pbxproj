@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544B9CC21BA116C500DC1F3E /* totalCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B9CC11BA116C500DC1F3E /* totalCalculate.m */; };
+		544B9CC31BA116C500DC1F3E /* totalCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B9CC11BA116C500DC1F3E /* totalCalculate.m */; };
+		544B9CC51BA1194C00DC1F3E /* localfileRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B9CC41BA1194C00DC1F3E /* localfileRead.m */; };
+		544B9CC61BA1194C00DC1F3E /* localfileRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B9CC41BA1194C00DC1F3E /* localfileRead.m */; };
+		544B9CC91BA11A1400DC1F3E /* sqlliteOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B9CC81BA11A1400DC1F3E /* sqlliteOperate.m */; };
+		544B9CCA1BA11A1400DC1F3E /* sqlliteOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B9CC81BA11A1400DC1F3E /* sqlliteOperate.m */; };
+		5452A25A1B9FDBE80034DC13 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5452A2591B9FDBE80034DC13 /* checked.png */; };
+		5452A25C1B9FDBF00034DC13 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 5452A25B1B9FDBF00034DC13 /* uncheck.png */; };
 		54FDE1AF1B50E77800FFEBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FDE1AE1B50E77800FFEBF3 /* main.m */; };
 		54FDE1B21B50E77800FFEBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FDE1B11B50E77800FFEBF3 /* AppDelegate.m */; };
 		54FDE1B51B50E77800FFEBF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FDE1B41B50E77800FFEBF3 /* ViewController.m */; };
@@ -27,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544B9CC01BA1169B00DC1F3E /* totalCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = totalCalculate.h; sourceTree = "<group>"; };
+		544B9CC11BA116C500DC1F3E /* totalCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = totalCalculate.m; sourceTree = "<group>"; };
+		544B9CC41BA1194C00DC1F3E /* localfileRead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = localfileRead.m; sourceTree = "<group>"; };
+		544B9CC71BA1196600DC1F3E /* localfileRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localfileRead.h; sourceTree = "<group>"; };
+		544B9CC81BA11A1400DC1F3E /* sqlliteOperate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sqlliteOperate.m; sourceTree = "<group>"; };
+		544B9CCB1BA11A2800DC1F3E /* sqlliteOperate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlliteOperate.h; sourceTree = "<group>"; };
+		5452A2591B9FDBE80034DC13 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = Images.xcassets/checkbox/checked.png; sourceTree = "<group>"; };
+		5452A25B1B9FDBF00034DC13 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uncheck.png; path = Images.xcassets/checkbox/uncheck.png; sourceTree = "<group>"; };
 		54FDE1A91B50E77800FFEBF3 /* AlterCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlterCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FDE1AD1B50E77800FFEBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FDE1AE1B50E77800FFEBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +76,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5452A2581B9FDB7C0034DC13 /* checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				5452A25B1B9FDBF00034DC13 /* uncheck.png */,
+				5452A2591B9FDBE80034DC13 /* checked.png */,
+			);
+			name = checkbox;
+			sourceTree = "<group>";
+		};
+		5452A25E1BA029690034DC13 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				544B9CC01BA1169B00DC1F3E /* totalCalculate.h */,
+				544B9CC11BA116C500DC1F3E /* totalCalculate.m */,
+			);
+			name = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		5452A25F1BA0298F0034DC13 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				54FDE1B01B50E77800FFEBF3 /* AppDelegate.h */,
+				54FDE1B11B50E77800FFEBF3 /* AppDelegate.m */,
+				54FDE1B31B50E77800FFEBF3 /* ViewController.h */,
+				54FDE1B41B50E77800FFEBF3 /* ViewController.m */,
+				54FDE1BB1B50E77800FFEBF3 /* LaunchScreen.xib */,
+				54FDE1B61B50E77800FFEBF3 /* Main.storyboard */,
+			);
+			name = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		5452A2601BA029BE0034DC13 /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				544B9CC41BA1194C00DC1F3E /* localfileRead.m */,
+				544B9CC71BA1196600DC1F3E /* localfileRead.h */,
+				544B9CC81BA11A1400DC1F3E /* sqlliteOperate.m */,
+				544B9CCB1BA11A2800DC1F3E /* sqlliteOperate.h */,
+			);
+			name = PersistenceLayer;
+			sourceTree = "<group>";
+		};
 		54FDE1A01B50E77800FFEBF3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +139,10 @@
 		54FDE1AB1B50E77800FFEBF3 /* AlterCount */ = {
 			isa = PBXGroup;
 			children = (
-				54FDE1B01B50E77800FFEBF3 /* AppDelegate.h */,
-				54FDE1B11B50E77800FFEBF3 /* AppDelegate.m */,
-				54FDE1B31B50E77800FFEBF3 /* ViewController.h */,
-				54FDE1B41B50E77800FFEBF3 /* ViewController.m */,
-				54FDE1B61B50E77800FFEBF3 /* Main.storyboard */,
+				5452A2601BA029BE0034DC13 /* PersistenceLayer */,
+				5452A25F1BA0298F0034DC13 /* PresentationLayer */,
+				5452A25E1BA029690034DC13 /* BusinessLogicLayer */,
 				54FDE1B91B50E77800FFEBF3 /* Images.xcassets */,
-				54FDE1BB1B50E77800FFEBF3 /* LaunchScreen.xib */,
 				54FDE1AC1B50E77800FFEBF3 /* Supporting Files */,
 			);
 			path = AlterCount;
@@ -96,6 +151,7 @@
 		54FDE1AC1B50E77800FFEBF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5452A2581B9FDB7C0034DC13 /* checkbox */,
 				54FDE1AD1B50E77800FFEBF3 /* Info.plist */,
 				54FDE1AE1B50E77800FFEBF3 /* main.m */,
 			);
@@ -200,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FDE1B81B50E77800FFEBF3 /* Main.storyboard in Resources */,
+				5452A25A1B9FDBE80034DC13 /* checked.png in Resources */,
+				5452A25C1B9FDBF00034DC13 /* uncheck.png in Resources */,
 				54FDE1BD1B50E77800FFEBF3 /* LaunchScreen.xib in Resources */,
 				54FDE1BA1B50E77800FFEBF3 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FDE1B51B50E77800FFEBF3 /* ViewController.m in Sources */,
+				544B9CC21BA116C500DC1F3E /* totalCalculate.m in Sources */,
 				54FDE1B21B50E77800FFEBF3 /* AppDelegate.m in Sources */,
+				544B9CC91BA11A1400DC1F3E /* sqlliteOperate.m in Sources */,
 				54FDE1AF1B50E77800FFEBF3 /* main.m in Sources */,
+				544B9CC51BA1194C00DC1F3E /* localfileRead.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FDE1C91B50E77800FFEBF3 /* AlterCountTests.m in Sources */,
+				544B9CCA1BA11A1400DC1F3E /* sqlliteOperate.m in Sources */,
+				544B9CC61BA1194C00DC1F3E /* localfileRead.m in Sources */,
+				544B9CC31BA116C500DC1F3E /* totalCalculate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9664RHS9A8)";
 				INFOPLIST_FILE = AlterCount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9664RHS9A8)";
 				INFOPLIST_FILE = AlterCount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +486,7 @@
 				54FDE1CE1B50E77800FFEBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54FDE1CF1B50E77800FFEBF3 /* Build configuration list for PBXNativeTarget "AlterCountTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +495,7 @@
 				54FDE1D11B50E77800FFEBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
